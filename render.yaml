@@ -3,6 +3,6 @@ services:
     name: content-cutter
     env: node
     plan: free
-    buildCommand: ""
+    buildCommand: "echo skipping build"
     startCommand: "node ffmpeg_cutter_webhook.js"
     branch: main
