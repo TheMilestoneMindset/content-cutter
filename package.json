@@ -4,5 +4,8 @@
   "main": "ffmpeg_cutter_webhook.js",
   "scripts": {
     "start": "node ffmpeg_cutter_webhook.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
