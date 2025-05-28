@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: content-cutter
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node ffmpeg_cutter_webhook.js"
+    branch: main
