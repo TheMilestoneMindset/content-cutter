@@ -1,0 +1,8 @@
+{
+  "name": "content-cutter",
+  "version": "1.0.0",
+  "main": "ffmpeg_cutter_webhook.js",
+  "scripts": {
+    "start": "node ffmpeg_cutter_webhook.js"
+  }
+}
